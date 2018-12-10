@@ -1,0 +1,31 @@
+{
+    "paths": {
+        "/*": {
+            "get": {
+                "x-auth-type": "Application",
+                "x-throttling-tier": "Unlimited",
+                "x-scope": "scope1",
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "x-wso2-security": {
+        "apim": {
+            "x-wso2-scopes": []
+        }
+    },
+    "swagger": "2.0",
+    "info": {
+        "title": "PhoneVerification22",
+        "description": "Verify a phone number",
+        "contact": {
+            "email": "xx@ee.com",
+            "name": "xx"
+        },
+        "version": "1.0.0"
+    }
+}
